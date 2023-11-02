@@ -1,0 +1,20 @@
+{
+  "name": "text-adventure-game",
+  "types": "module",
+  "version": "1.0.0",
+  "description": "A text based adventure game in typescript and node json",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Faiza Mughal",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
+  }
+}
